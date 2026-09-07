@@ -1,12 +1,12 @@
 # CI for Product Catalog Service
 
 name: product-catalog-ci
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+
 jobs:
     build:
         runs-on: ubuntu-latest

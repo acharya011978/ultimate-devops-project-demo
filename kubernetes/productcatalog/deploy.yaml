@@ -31,7 +31,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: sonipa/product-catalog:34152290143
+          image: sonipa/product-catalog:34164288887
           imagePullPolicy: IfNotPresent
           ports:
             

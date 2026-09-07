@@ -5,7 +5,7 @@ using Accounting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-Console.WriteLine("Accounting service started");
+Console.WriteLine("Accounting service started - Build Trigger Test");
 
 Environment.GetEnvironmentVariables()
     .FilterRelevant()
